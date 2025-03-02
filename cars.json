@@ -1,0 +1,14 @@
+[
+  {
+    "id": "1",
+    "brand": "Tesla",
+    "model": "Model S",
+    "year": 2023
+  },
+  {
+    "id": "2",
+    "brand": "BMW",
+    "model": "X5",
+    "year": 2021
+  }
+]
