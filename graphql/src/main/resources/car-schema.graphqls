@@ -1,0 +1,22 @@
+type Query {
+    getAllCars: [Car]
+    getCar(id: ID!): Car
+    defaultField: String
+}
+
+type Mutation {
+    createCar(input: CarInput): Car
+}
+
+type Car {
+    id: ID!
+    brand: String!
+    model: String!
+    year: Int!
+}
+
+input CarInput {
+    brand: String!
+    model: String!
+    year: Int!
+}
